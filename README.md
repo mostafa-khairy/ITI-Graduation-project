@@ -6,13 +6,13 @@ Instructors are allowed to add students and different questions for each Course.
 # in this project 
 
 ## 1 - Database :
-* contain Stored procedures that insert, update, and delete in any table in the database.
+* Contain Stored procedures that insert, update, and delete in any table in the database.
 
-* contain a Stored procedure that Generate an exam for any Course by choosing a number of MCQ questions and a number of T/F Questions and choosing this number randomly from the question table.
+* Contain a Stored procedure that Generate exams for Courses by choosing a number of MCQs and T/F Questions and select this Questions randomly from the question table.
 
-* contain a Stored procedure that insert the student answers for each question in the database.
+* Contain a Stored procedure that insert the student answers for each question in the database.
 
-* contain a stored procedure that correct each exam based on the model answer.
+* Contain a stored procedure that correct each exam based on the model answer.
 
 ## 2- Reports :
 * Report that returns the students information according to Department No parameter.
