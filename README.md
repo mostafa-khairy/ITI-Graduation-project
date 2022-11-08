@@ -1,8 +1,7 @@
 # ITI-Graduation-project
-**- My Graduation Project for Business intelligence Track at the Information Technology Institute (ITI) Menofia branch.**
 
-**- A desktop application used by students and Instructor that allows the student to know the subjects in which he has registered and their grades and allows them to take exams and correct them automatically based on the model answer stored in the database.
-Instructors are allowed to add students, add different questions for each subject, and view the different reports of the system**
+**- A desktop application used by students and Instructors that allows students to know the Courses in which they are enrolled in and their grades and allows them to take exams and their results instantly based on a model answer stored in the database.
+Instructors are allowed to add students and different questions for each Course. in addition to viewing different reports of the system**
 
 # in this project 
 
