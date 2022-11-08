@@ -1,0 +1,13 @@
+﻿<Window x:Class="Exam_System.Exam_Result"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Exam Result" Height="160" Width="600" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False">
+    <Grid>
+        <Image Name="result_Image" HorizontalAlignment="Left" Height="100" Margin="15,15,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Name="result_Label" Content="-Result-" HorizontalAlignment="Left" Margin="130,0,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Your Grade:" HorizontalAlignment="Left" Margin="130,35,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Name="grade_Label" Content="-Grade-" HorizontalAlignment="Left" Margin="210,35,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="Total Questions:" HorizontalAlignment="Left" Margin="130,60,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Name="total_Label" Content="-T-" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top" FontSize="15"/>
+    </Grid>
+</Window>

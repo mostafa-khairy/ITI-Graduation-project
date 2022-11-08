@@ -1,0 +1,111 @@
+st_id,st_fname,st_lname,st_address,st_gender,st_Password,email,dept_id,st_DOB
+,Ali,Fathy,Sohag,Male,993,AliFathy2198@gmail.com,1,13-10-1996
+,Gaber,Islam,Luxor,Male,989,GaberIslam2203@gmail.com,2,22-10-2000
+,Hassan,Eslam,Asyut,Male,804,HassanEslam2168@gmail.com,3,25-03-1999
+,Mostafa,Habib,Aswan,Male,58,MostafaHabib1940@gmail.com,4,19-07-1998
+,Mostafa,Shady,Qena,Male,415,MostafaShady2213@gmail.com,5,23-02-1999
+,Shady,Hassan,Cairo,Male,690,ShadyHassan2156@gmail.com,1,8/8/1995
+,Ahmed,Mohamed,Sohag,Male,858,AhmedMohamed2161@gmail.com,2,3/3/1993
+,Mostafa,Islam,Aswan,Male,509,MostafaIslam2093@gmail.com,3,22-11-1995
+,Ali,Moaz,Aswan,Male,684,AliMoaz1919@gmail.com,4,6/7/1996
+,Ali,Mohamed,Qena,Male,647,AliMohamed1992@gmail.com,5,27-09-1996
+,Shady,Shady,Banha,Male,395,ShadyShady1960@gmail.com,1,9/7/2000
+,Mostafa,Hassan,Aswan,Male,183,MostafaHassan2196@gmail.com,2,10/7/1997
+,Salah,Hassan,Giza,Male,63,SalahHassan2041@gmail.com,3,10/11/1995
+,Eslam,Gaber,Al Fayoum,Male,677,EslamGaber1965@gmail.com,4,4/6/1995
+,Raffat,Moaz,Al Fayoum,Male,278,RaffatMoaz2138@gmail.com,5,12/12/1996
+,Eslam,Khalid,Giza,Male,267,EslamKhalid1972@gmail.com,1,10/9/1997
+,Moaz,Eslam,Cairo,Male,701,MoazEslam2133@gmail.com,2,26-08-1994
+,Ahmed,Ehab,Qena,Male,275,AhmedEhab2162@gmail.com,3,5/3/1994
+,Raffat,Ali,Aswan,Male,793,RaffatAli2115@gmail.com,4,11/6/2000
+,Fathy,Khalid,Al Fayoum,Male,89,FathyKhalid1931@gmail.com,5,15-10-1994
+,Fathy,Habib,Al Fayoum,Male,382,FathyHabib2061@gmail.com,1,11/6/2001
+,Islam,Khalid,Aswan,Male,476,IslamKhalid2098@gmail.com,2,20-04-1998
+,Ehab,Moaz,Alexandria,Male,894,EhabMoaz2103@gmail.com,3,22-09-2001
+,Shady,Raffat,Giza,Male,355,ShadyRaffat2062@gmail.com,4,19-05-1998
+,Habib,Shady,Al Fayoum,Male,937,HabibShady2258@gmail.com,5,1/10/1993
+,Khalid,Moaz,Suez,Male,161,KhalidMoaz2131@gmail.com,1,25-04-2000
+,Shady,Moaz,Suez,Male,772,ShadyMoaz1944@gmail.com,2,6/9/1993
+,Moaz,Shady,Alexandria,Male,15,MoazShady1953@gmail.com,3,20-05-1997
+,Islam,Shady,Sohag,Male,578,IslamShady1981@gmail.com,4,13-02-1999
+,Islam,Moaz,Giza,Male,324,IslamMoaz2136@gmail.com,5,19-10-1999
+,Fathy,Moaz,Sohag,Male,539,FathyMoaz1905@gmail.com,1,3/3/1994
+,Ehab,Ali,Ismailia,Male,342,EhabAli2221@gmail.com,2,17-04-1994
+,Khalid,Ahmed,Cairo,Male,517,KhalidAhmed2195@gmail.com,3,23-07-1999
+,Gaber,Raffat,Asyut,Male,48,GaberRaffat2031@gmail.com,4,17-02-2000
+,Salah,Khalid,Ismailia,Male,411,SalahKhalid2154@gmail.com,5,9/4/1993
+,Eslam,Ehab,Cairo,Male,532,EslamEhab2290@gmail.com,1,5/7/1994
+,Habib,Eslam,Sohag,Male,417,HabibEslam2074@gmail.com,2,21-06-2001
+,Salah,Hassan,Qena,Male,958,SalahHassan2221@gmail.com,3,18-10-1993
+,Gaber,Khalid,Asyut,Male,601,GaberKhalid1940@gmail.com,4,13-04-1997
+,Hisham,Khalid,Al Fayoum,Male,938,HishamKhalid1904@gmail.com,5,13-09-1998
+,Eslam,Ali,Tanta,Male,173,EslamAli1983@gmail.com,1,13-02-2001
+,Ahmed,Salah,Suez,Male,523,AhmedSalah2125@gmail.com,2,17-12-1997
+,Shady,Ahmed,Al Fayoum,Male,689,ShadyAhmed1984@gmail.com,3,11/6/1995
+,Salah,Eslam,Suez,Male,38,SalahEslam2210@gmail.com,4,30-10-1995
+,Moaz,Moaz,Aswan,Male,362,MoazMoaz2277@gmail.com,5,25-04-1998
+,Islam,Hassan,Aswan,Male,589,IslamHassan2003@gmail.com,1,22-10-2001
+,Hassan,Mohamed,Cairo,Male,742,HassanMohamed2149@gmail.com,2,10/9/1998
+,Moaz,Hisham,Alexandria,Male,348,MoazHisham2076@gmail.com,3,16-10-2000
+,Habib,Raffat,Suez,Male,934,HabibRaffat2232@gmail.com,4,16-03-1993
+,Ahmed,Ahmed,Ismailia,Male,463,AhmedAhmed2110@gmail.com,5,1/11/1993
+,Habib,Ali,Aswan,Male,672,HabibAli1968@gmail.com,1,1/8/1995
+,Raffat,Fathy,Cairo,Male,285,RaffatFathy2153@gmail.com,2,20-02-1993
+,Salah,Islam,Al Minya,Male,712,SalahIslam1962@gmail.com,3,27-06-1996
+,Khalid,Habib,Giza,Male,261,KhalidHabib2267@gmail.com,4,25-09-2001
+,Gaber,Hassan,Banha,Male,997,GaberHassan2261@gmail.com,5,2/11/1996
+,Ahmed,Hisham,Giza,Male,488,AhmedHisham1995@gmail.com,1,6/2/1995
+,Gaber,Khalid,Banha,Male,840,GaberKhalid2248@gmail.com,2,15-07-2001
+,Khalid,Mohamed,Cairo,Male,952,KhalidMohamed1963@gmail.com,3,2/11/1997
+,Islam,Eslam,Tanta,Male,416,IslamEslam1922@gmail.com,4,20-02-1999
+,Hisham,Fathy,Ismailia,Male,132,HishamFathy2281@gmail.com,5,22-12-2000
+,Shady,Hisham,Sohag,Male,453,ShadyHisham1946@gmail.com,1,2/7/1999
+,Ali,Salah,Luxor,Male,745,AliSalah2207@gmail.com,2,7/12/1997
+,Habib,Ehab,Banha,Male,823,HabibEhab2125@gmail.com,3,5/6/2001
+,Moaz,Hisham,Sohag,Male,297,MoazHisham2164@gmail.com,4,29-05-1994
+,Islam,Khalid,Suez,Male,392,IslamKhalid2202@gmail.com,5,22-06-1994
+,Mostafa,Ali,Alexandria,Male,541,MostafaAli2234@gmail.com,1,27-09-1998
+,Raffat,Eslam,Ismailia,Male,900,RaffatEslam1941@gmail.com,2,28-08-1993
+,Fathy,Raffat,Tanta,Male,635,FathyRaffat2140@gmail.com,3,18-03-2000
+,Ahmed,Hisham,Qena,Male,139,AhmedHisham2186@gmail.com,4,20-04-1997
+,Shady,Ali,Asyut,Male,828,ShadyAli2129@gmail.com,5,17-03-1996
+,Mariam,Mohamed,Asyut,Female,184,AliFathy2200@gmail.com,1,14-04-1993
+,Sondos,Ehab,Tanta,Female,409,GaberIslam2299@gmail.com,2,24-12-2000
+,Asmaa,Gaber,Alexandria,Female,275,HassanEslam2119@gmail.com,3,30-11-1993
+,Asmaa,Ali,Tanta,Female,772,MostafaHabib2240@gmail.com,4,9/11/1993
+,Saly,Islam,Asyut,Female,244,MostafaShady1913@gmail.com,5,4/5/1993
+,Asmaa,Islam,Alexandria,Female,785,ShadyHassan1945@gmail.com,1,29-06-2001
+,Saly,Islam,Suez,Female,708,AhmedMohamed2270@gmail.com,2,6/2/2000
+,Mwada,Fathy,Alexandria,Female,60,MostafaIslam2012@gmail.com,3,21-09-1997
+,Nermeen,Eslam,Suez,Female,625,AliMoaz2273@gmail.com,4,19-01-1995
+,Yara,Fathy,Giza,Female,892,AliMohamed1987@gmail.com,5,15-07-1994
+,Manar,Moaz,Banha,Female,271,ShadyShady2273@gmail.com,1,27-11-2001
+,Nermeen,Ahmed,Luxor,Female,527,MostafaHassan2170@gmail.com,2,4/10/1999
+,Saly,Shady,Tanta,Female,346,SalahHassan2078@gmail.com,3,1/5/1993
+,Nermeen,Habib,Ismailia,Female,30,EslamGaber2120@gmail.com,4,10/1/2000
+,Saly,Fathy,Ismailia,Female,282,RaffatMoaz2201@gmail.com,5,5/7/1998
+,Esraa,Khalid,Sohag,Female,10,EslamKhalid2191@gmail.com,1,2/1/2002
+,Mariam,Ehab,Cairo,Female,11,MoazEslam1901@gmail.com,2,19-03-2001
+,Esraa,Raffat,Banha,Female,225,AhmedEhab2162@gmail.com,3,4/3/1998
+,Yara,Islam,Al Minya,Female,777,RaffatAli2209@gmail.com,4,27-01-1995
+,Saly,Fathy,Sohag,Female,835,FathyKhalid2077@gmail.com,5,29-05-1996
+,Sondos,Ali,Tanta,Female,470,FathyHabib2049@gmail.com,1,28-04-1999
+,Asmaa,Ahmed,Giza,Female,85,IslamKhalid2245@gmail.com,2,3/9/2002
+,Mariam,Ahmed,Al Fayoum,Female,622,EhabMoaz2204@gmail.com,3,17-07-1999
+,Esraa,Hisham,Ismailia,Female,240,ShadyRaffat2065@gmail.com,4,30-06-1997
+,Hidy,Hassan,Suez,Female,834,HabibShady2144@gmail.com,5,18-09-2001
+,Saly,Islam,Aswan,Female,390,KhalidMoaz1994@gmail.com,1,6/7/1999
+,Manar,Habib,Asyut,Female,765,ShadyMoaz1973@gmail.com,2,6/6/1994
+,Manar,Islam,Asyut,Female,633,MoazShady2139@gmail.com,3,12/3/1997
+,Mariam,Habib,Cairo,Female,27,IslamShady2007@gmail.com,4,8/4/1999
+,Mwada,Habib,Luxor,Female,351,IslamMoaz2176@gmail.com,5,5/2/2001
+,Hidy,Shady,Banha,Female,206,FathyMoaz2087@gmail.com,1,10/5/2000
+,Mariam,Habib,Suez,Female,452,EhabAli2004@gmail.com,2,15-01-1995
+,Sondos,Hassan,Alexandria,Female,265,KhalidAhmed2001@gmail.com,3,30-10-1997
+,Yara,Habib,Qena,Female,449,GaberRaffat2230@gmail.com,4,5/8/1994
+,Saly,Hassan,Qena,Female,133,SalahKhalid2032@gmail.com,5,26-11-2002
+,Yara,Salah,Banha,Female,457,EslamEhab2247@gmail.com,1,28-08-1995
+,Hidy,Gaber,Sohag,Female,901,HabibEslam2232@gmail.com,2,6/6/2003
+,Yara,Eslam,Ismailia,Female,374,SalahHassan1979@gmail.com,3,16-06-2001
+,Sondos,Ahmed,Ismailia,Female,303,GaberKhalid2239@gmail.com,4,29-05-1993
+,Manar,Gaber,Cairo,Female,523,HishamKhalid2138@gmail.com,5,3/8/1996

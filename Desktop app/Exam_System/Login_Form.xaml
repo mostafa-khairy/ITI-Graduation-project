@@ -1,0 +1,20 @@
+﻿<Window x:Class="Exam_System.Login_Form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login_Form" Height="208.266" Width="300" Activated="LoginWindow_Shown">
+    <Grid>
+        <!--Title of Form-->
+        <Label Name="formTitle_Label" Content="Portal" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-3.99,0.302" FontSize="26"/>
+
+        <!--Email Components-->
+        <Label Name="emailHint_Label" Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,48,0,0" FontSize="14" Panel.ZIndex="1" TextBlock.Foreground="Gray"/>
+        <TextBox Name="emailTxtBx" HorizontalAlignment="Left" Width="280" Height="23" Margin="10,53,10,0" TextWrapping="Wrap" VerticalAlignment="Top" BorderThickness="0,0,0,1" FontSize="14" Panel.ZIndex="0" TextChanged="emailTxtBx_Changed" TabIndex="0"/>
+        <!--Password Components-->
+        <Label Name="passHint_Label" Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,87,0,0" FontSize="14" Panel.ZIndex="1" TextBlock.Foreground="Gray"/>
+        <PasswordBox Name="passTxtBx" HorizontalAlignment="Left" Width="280" Height="23" Margin="10,92,10,0" VerticalAlignment="Top" BorderThickness="0,0,0,1" FontSize="14" Panel.ZIndex="0" TabIndex="1" PasswordChanged="passTxtBx_Changed"/>
+
+        <!--Control Buttons-->
+        <Button Name="login_Btn" Content="Login" HorizontalAlignment="Right" Margin="0,0,92,10" VerticalAlignment="Bottom" Width="72" Height="28" FontSize="15" TabIndex="2" Click="loginBtn_MouseDown"/>
+        <Button Name="cancel_Btn" Content="Cancel" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="72" Height="28" FontSize="15" TabIndex="3" Click="cancelBtn_MouseDown"/>
+    </Grid>
+</Window>

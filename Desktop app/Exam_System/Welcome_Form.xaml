@@ -1,0 +1,54 @@
+﻿<Window x:Class="Exam_System.Welcome_Form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Welcome" Height="374.133" Width="456.267" Activated="Window_Activated">
+    <Grid>
+        <!--Title Label-->
+        <Label Name="studentGreeting_Label" Content="Hi Mohamed," HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+        <!--Information Grid-->
+        <Grid HorizontalAlignment="Left" Height="105" Margin="10,47,0,0" VerticalAlignment="Top" Width="421">
+            <Label Content="Full Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Panel.ZIndex="1" Margin="10,20,0,0" FontSize="14"/>
+            <Label Name="gender_Label" Content="Gender:" HorizontalAlignment="Left" Margin="270,20,0,0" VerticalAlignment="Top" Panel.ZIndex="1" FontSize="14"/>
+            <Label Name="student_Label" Content="Student ID" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Panel.ZIndex="1" FontSize="14"/>
+            <Label Content="Department ID:" HorizontalAlignment="Left" Margin="270,45,0,0" VerticalAlignment="Top" Panel.ZIndex="1" FontSize="14"/>
+            <Label Content="Email:" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" Panel.ZIndex="1" FontSize="14"/>
+            <Label Content="Address:" HorizontalAlignment="Left" Margin="270,70,0,0" VerticalAlignment="Top" Panel.ZIndex="1" FontSize="14"/>
+            <Label Name="studentName_Label" Content="-Name-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,20,0,0" Panel.ZIndex="1" FontSize="15" FontWeight="Bold"/>
+            <Label Name="studentGender_Label" Content="-Gender-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,20,0,0" Panel.ZIndex="1" FontSize="15" FontWeight="Bold"/>
+            <Label Name="studentID_Label" Content="-ID-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="102,44,0,0" Panel.ZIndex="1" FontSize="15" FontWeight="Bold"/>
+            <Label Name="studentDepID_Label" Content="-Dep ID-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="368,44,0,0" Panel.ZIndex="1" FontSize="15" FontWeight="Bold"/>
+            <Label Name="studentEmail_Label" Content="-email-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,70,0,0" Panel.ZIndex="1" FontSize="15" FontWeight="Bold"/>
+            <Label Name="studentAddress_Label" Content="-Address-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,70,0,0" Panel.ZIndex="1" FontSize="15" FontWeight="Bold"/>
+            <GroupBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="105" VerticalAlignment="Top" Width="421" Panel.ZIndex="0" Header="Information"/>
+        </Grid>
+
+        <!--Courses Grid-->
+        <Grid Name="Courses_Grid" HorizontalAlignment="Left" Height="165" Margin="10,157,0,0" VerticalAlignment="Top" Width="421" Visibility="Collapsed">
+            <GroupBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="165" VerticalAlignment="Top" Width="421" Panel.ZIndex="0" Header="Courses"/>
+            <Label Content="Number of Courses:" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" Panel.ZIndex="1" FontSize="14"/>
+            <Label Content="Courses" HorizontalAlignment="Left" Margin="10,45,0,0" VerticalAlignment="Top" Panel.ZIndex="1" FontSize="14"/>
+            <Label Name="coursesCount_Label" Content="-No-" HorizontalAlignment="Left" Margin="138,20,0,0" VerticalAlignment="Top" Panel.ZIndex="1" FontSize="15" FontWeight="Bold"/>
+            <ComboBox Name="Courses_ComboBx" HorizontalAlignment="Left" Margin="291,48,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Courses_ComboBx_SelectionChanged"/>
+            <Button Name="startExam_Btn" Content="Start Exam" HorizontalAlignment="Right" Margin="0,10,15,20" VerticalAlignment="Bottom" Width="94" Height="38" Click="startExam_Btn_Click" IsEnabled="False"/>
+
+            <!--Results Grid-->
+            <Grid HorizontalAlignment="Left" Height="75" Margin="10,80,0,0" VerticalAlignment="Top" Width="274">
+                <GroupBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="274" Panel.ZIndex="0" Header="Results"/>
+                <Image Name="coursesResult_Image" HorizontalAlignment="Left" Height="25" Margin="10,20,0,0" VerticalAlignment="Top" Width="25"/>
+                <Label Name="coursesResult_Label" Content="-Results-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,20,0,0"/>
+                <Label Content="Grade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,45,0,0"/>
+                <Label Name="coursesGrade_Label" Content="-No-" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,45,0,0"/>
+            </Grid>
+        </Grid>
+        
+        <!--Instructor Tools Grid-->
+        <Grid Name="instructorTools_Grid"  HorizontalAlignment="Left" Height="165" Margin="10,157,0,0" VerticalAlignment="Top" Width="421" Visibility="Visible">
+            <GroupBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="165" VerticalAlignment="Top" Width="421" Panel.ZIndex="0" Header="Tools"/>
+            <Button Name="addQuestion_Btn" Content="Add Question" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="152" RenderTransformOrigin="7.668,2.5" Click="addQuestion_Btn_Click"/>
+            <Button Name="addStudent_Btn" Content="Add Student" HorizontalAlignment="Left" Margin="259,42,0,0" VerticalAlignment="Top" Width="152" RenderTransformOrigin="7.668,2.5" Click="addStudent_Btn_Click"/>
+            <Button x:Name="viewReports_Btn" Content="View Reports" HorizontalAlignment="Left" Margin="141,88,0,0" VerticalAlignment="Top" Width="152" RenderTransformOrigin="7.668,2.5" Click="viewReports_Btn_Click"/>
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Exam_System.addStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="addStudent" Height="257.6" Width="300">
+    <Grid>
+        <Label Content="Add Studnet" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Student ID" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="studentID_TxtBx" HorizontalAlignment="Left" Height="23" Margin="81,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" FontSize="14" TextChanged="studentID_TxtBx_TextChanged"/>
+        <Label Content="Department ID" HorizontalAlignment="Left" Margin="140,40,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="departmentID_TxtBx" HorizontalAlignment="Left" Height="23" Margin="230,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" FontSize="14" TextChanged="departmentID_TxtBx_TextChanged"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="studentFirstName_TxtBx" HorizontalAlignment="Left" Height="23" Margin="81,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="studentLastName_TxtBx" HorizontalAlignment="Left" Height="23" Margin="81,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="studentEmail_TxtBx" HorizontalAlignment="Left" Height="23" Margin="81,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="studentPass_TxtBx" HorizontalAlignment="Left" Height="23" Margin="81,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" TextChanged="studentPass_TxtBx_TextChanged"/>
+
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="209,192,0,0" VerticalAlignment="Top" Width="75" Click="cancelBtn_Click"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="126,192,0,0" VerticalAlignment="Top" Width="75" Click="AddBtn_Click"/>
+
+    </Grid>
+</Window>
